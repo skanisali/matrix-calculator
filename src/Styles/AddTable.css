@@ -1,0 +1,65 @@
+
+
+.add-table-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.add-btn {
+  background-color: #ff6600; 
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 2rem; 
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.matrix-wrapper {
+  margin-top: 1.5rem; 
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+
+
+.add-btn:hover {
+  background-color: #e65500;
+  transform: scale(1.05);
+  color: white; 
+}
+
+.matrix-table {
+  border-collapse: collapse;
+  background-color: #111; 
+  color: #ff6600; 
+  font-weight: bold;
+}
+
+.matrix-table td {
+  border: 2px solid #ff6600;
+  padding: 0.6rem 1rem;
+  text-align: center;
+  font-size: 1.2rem;
+  min-width: 40px;
+}
+
+.added {
+  margin-top: 1rem;
+}
+
+.added::after {
+  content: "After adding";
+  display: block;
+  color: #00ff66; 
+  font-size: 1.2rem;
+  margin-top: 0.8rem;
+  text-align: center;
+  font-weight: bold;
+}

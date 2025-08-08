@@ -1,0 +1,18 @@
+.glass-header {
+  background-color: #B8E3E9 !important;  
+  backdrop-filter: blur(10px); 
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: none !important;
+  border-bottom: 1px solid rgba(184, 227, 233, 0.2); 
+}
+
+.header-title {
+  flex-grow: 1;
+  color: #1a393d; 
+  font-weight: bold;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.main-content {
+  padding-top: 64px;
+}

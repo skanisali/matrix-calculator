@@ -1,0 +1,62 @@
+.tables-wrapper {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: 1fr;
+  margin-top: 2rem;
+  padding: 0 10px;
+}
+
+@media (min-width: 900px) {
+  .tables-wrapper {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.table-paper {
+  background-color: white;
+  border-radius: 6px;
+  overflow: hidden;
+  border: 1px solid #ccc;
+  max-width: 100%;
+}
+
+
+.table-header {
+  font-weight: bold;
+  font-size: 0.85rem;
+  padding: 4px 8px;
+  background-color: #f7f7f7;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+}
+
+
+.mui-table-container {
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+
+.index-cell,
+.header-cell,
+.data-cell {
+  padding: 2px 4px !important;
+  font-size: 0.7rem !important;
+  min-width: 25px !important;
+  max-width: 40px;
+  text-align: center;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.MuiTableCell-root {
+  padding: 2px 4px !important;
+}
+
+.MuiTableRow-root {
+  height: auto !important;
+}
+
+tbody tr:hover {
+  background-color: rgba(0, 0, 0, 0.04);
+}
